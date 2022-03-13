@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3.6s;
+}
+
+#logo path:nth-child(1){
+    animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(2){
+    animation: line-anim 2s ease forwards 0.4s;
+}
+#logo path:nth-child(3){
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#logo path:nth-child(4){
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(5){
+    animation: line-anim 2s ease forwards 1.6s;
+}
+#logo path:nth-child(6){
+    animation: line-anim 2s ease forwards 2.0s;
+}
+#logo path:nth-child(7){
+    animation: line-anim 2s ease forwards 2.8s;
+}
+
+#circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#circle path{
+    animation: line-anim 2s ease forwards 3.8s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill: #c44569;
+    }
+}
+
+@media screen and(max-width: 350px){
+    .circle{
+        width:300px;
+        height:250px
+
+    }
+    .logo{
+        width: 250px;
+        height:225px ;
+    }
+}
+@media screen and (min-width: 1024px){
+    .circle{
+        width: 730px;
+        height: 600px;
+    }
+    .logo {
+        width: 550px;
+        height: 160px;
+    }
+}
