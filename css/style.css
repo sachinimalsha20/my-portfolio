@@ -486,22 +486,29 @@ body.dark-theme{
     width: 80%;
 }
 .skills_js{
-    width: 60%;
+    width: 70%;
 }
-.skills_react{
-    width: 20%;
+
+.skills_java{
+    width: 80%;
 }
 .skills_php{
-    width: 40%;
+    width: 70%;
 }
 .skills_nodejs{
     width: 60%;
 }
-.skills_firebase{
-    width: 10%;
+.skills_mysql{
+    width: 90%;
 }
 .skills_python{
-    width: 85%;
+    width: 70%;
+}
+.skills_bootstrap{
+    width: 80%;
+}
+.skills_angular{
+    width: 70%;
 }
 .skills_figma{
     width: 90%;
